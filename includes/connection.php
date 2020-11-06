@@ -6,12 +6,12 @@
  	header("Content-Type: text/html;charset=UTF-8");
 	
 	//mysql://b82af8ecf21bd1:e0b150ce@eu-cdbr-west-03.cleardb.net/heroku_40c048ff514a517?reconnect=true
-		if($_SERVER['HTTP_HOST']=="eu-cdbr-west-03.cleardb.net" or $_SERVER['HTTP_HOST']=="192.168.1.125")
+		if($_SERVER['HTTP_HOST']=="eu-cdbr-west-03.cleardb.net:3306" or $_SERVER['HTTP_HOST']=="192.168.1.125")
 		{	
 			//local  
 			DEFINE ('DB_USER', 'b82af8ecf21bd1');
 			DEFINE ('DB_PASSWORD', 'e0b150ce');
-			DEFINE ('DB_HOST', 'eu-cdbr-west-03.cleardb.net'); //host name depends on server
+			DEFINE ('DB_HOST', 'eu-cdbr-west-03.cleardb.net:3306'); //host name depends on server
 			DEFINE ('DB_NAME', 'heroku_40c048ff514a517');
 		}
 		else
@@ -19,7 +19,7 @@
 			//local live 
 			DEFINE ('DB_USER', 'b82af8ecf21bd1');
 			DEFINE ('DB_PASSWORD', 'e0b150ce');
-			DEFINE ('DB_HOST', 'eeu-cdbr-west-03.cleardb.net'); //host name depends on server
+			DEFINE ('DB_HOST', 'eu-cdbr-west-03.cleardb.net:3306'); //host name depends on server
 			DEFINE ('DB_NAME', 'heroku_40c048ff514a517');
 		}
 
