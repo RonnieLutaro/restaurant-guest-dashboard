@@ -90,14 +90,14 @@
 		
 		if($coming_wallet>0)
 		{
-			$reward="You have been rewarded Rs.".$coming_wallet." from Cake Lovers Team. You can use it on your next order.";
+			$reward="You have been rewarded ugx.".$coming_wallet." from Cake Lovers Team. You can use it on your next order.";
 		
 		//SEND MESSAGE TO USER	
 		sendMessage($userid,$reward);
 		
 		//send notification to user
 		$title="Congratulations ".$row['name']."!";
-   		$msg="You have been rewarded Rs ".$coming_wallet." is your wallet.";
+   		$msg="You have been rewarded ugx ".$coming_wallet." is your wallet.";
    		$type="order";
 		$img="";
 		
@@ -228,7 +228,7 @@
 						  <td><?php echo $row['id'];?></td>
 						  <td><?php echo $row['name'];?></br><b>(<?php echo $row['mobile'];?>)</b></td>
 						  
-						  <td>Rs. <b><?php echo $row['wallet'];?>.00</b></td>
+						  <td>ugx. <b><?php echo $row['wallet'];?>.00</b></td>
 						   <!--href="add_wallet_amount.php?u_id=<?php echo $row['id'];?>"-->
 							<td>
 							  <?php 

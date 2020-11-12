@@ -326,7 +326,7 @@ if($rows>=1)
                 <div class="section-body">
                  
                   <div class="form-group">
-                    <label class="col-md-3 control-label">Minimum Amount Rs. :-</label>
+                    <label class="col-md-3 control-label">Minimum Amount ugx. :-</label>
                     <div class="col-md-6">
                       <input type="text" name="min_amount_rs" id="min_amount_rs" value="<?php echo $settings_row['min_amount_rs'];?>" class="form-control">
                     </div>
