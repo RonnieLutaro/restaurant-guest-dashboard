@@ -5,7 +5,7 @@
  
  	header("Content-Type: text/html;charset=UTF-8");
 	
-		if($_SERVER['HTTP_HOST']=="localhost" or $_SERVER['HTTP_HOST']=="eu-cdbr-west-03.cleardb.net")
+		if($_SERVER['HTTP_HOST']=="localhost" or $_SERVER['HTTP_HOST']=="eu-cdbr-west-03.cleardb.net:3306")
 		{	
 			//local  
 			DEFINE ('DB_USER', 'root');
