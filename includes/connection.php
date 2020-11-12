@@ -5,14 +5,13 @@
  
  	header("Content-Type: text/html;charset=UTF-8");
 	
-	//mysql://b82af8ecf21bd1:e0b150ce@eu-cdbr-west-03.cleardb.net/heroku_40c048ff514a517?reconnect=true
-		if($_SERVER['HTTP_HOST']=="eu-cdbr-west-03.cleardb.net:3306" or $_SERVER['HTTP_HOST']=="192.168.1.125")
+		if($_SERVER['HTTP_HOST']=="localhost" or $_SERVER['HTTP_HOST']=="eu-cdbr-west-03.cleardb.net")
 		{	
 			//local  
-			DEFINE ('DB_USER', 'b82af8ecf21bd1');
-			DEFINE ('DB_PASSWORD', 'e0b150ce');
-			DEFINE ('DB_HOST', 'eu-cdbr-west-03.cleardb.net:3306'); //host name depends on server
-			DEFINE ('DB_NAME', 'heroku_40c048ff514a517');
+			DEFINE ('DB_USER', 'root');
+			DEFINE ('DB_PASSWORD', 'M@nkeyRon7');
+			DEFINE ('DB_HOST', 'localhost:3306'); //host name depends on server
+			DEFINE ('DB_NAME', 'restaurant_guest');
 		}
 		else
 		{
