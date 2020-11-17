@@ -162,7 +162,10 @@
 				 <td>
 				  <?php if($row['food_type']==1){ echo "<img width='20px' style='border-radius:3px; background-color: white; position: absolute;' src='images/img/veg.png'>"; } else { echo "<img width='20px' style='border-radius:3px; background-color: white; position: absolute;' src='images/img/non.png'>"; } ?>  
 				  <span class="category_img"><img src="categories/<?php echo $row['cat_id'];?>/<?php echo $row['image'];?>" /></span></td>
-                  <td><span class="fa fa-rupee"><?php echo $row['price']; ?></span></td>
+				  <?//this can be improved with font awesome in the first span tag below by 
+				   //adding necessary fontawsome class for the ugx
+				  ?>
+				  <td><span><?php echo ugx. $row['price']; ?></span></td>
                   
 				  
 					<td>
