@@ -426,7 +426,7 @@
 																<table cellpadding="0" cellspacing="0" border="0" width="20%" align="right" class="responsive-table">
 																	<tr>
 																		<td align="center" style="padding: 0 0 0 0; font-family: Arial, sans-serif; color: #333333; font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #999999; font-weight: 600; font-size: 12px; line-height: 22px; text-align: right;" bgcolor="#ffffff" class="flex-p-charges">
-																			<i class="fa fa-inr"></i> <?php echo $orderDetails['order_array'][$i]['sub_total'];?>
+																			<i class=""></i> <?php echo $orderDetails['order_array'][$i]['sub_total'];?>
 																		</td>
 																	</tr>
 																</table>
@@ -457,7 +457,8 @@
 													<table cellpadding="0" cellspacing="0" border="0" width="20%" align="right" class="responsive-table">
 														<tr>
 															<td align="center" style="padding: 0 0 0 0; font-family: Arial, sans-serif; color: #333333; font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #999999; font-weight: 600; font-size: 12px; line-height: 22px; text-align: right;" bgcolor="#ffffff" class="flex-p-charges">
-																<i class="fa fa-inr"></i> <?php echo $orderDetails['amount']['sub_total'];?>
+																<?//currency icon needed?>
+																<i class=""></i> <?php echo $orderDetails['amount']['sub_total'];?>
 															</td>
 														</tr>
 													</table>
@@ -481,7 +482,8 @@
 													<table cellpadding="0" cellspacing="0" border="0" width="20%" align="right" class="responsive-table">
 														<tr>
 															<td align="center" style="padding: 0 0 0 0; font-family: Arial, sans-serif; color: #333333; font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #999999; font-weight: 600; font-size: 12px; line-height: 22px; text-align: right;" bgcolor="#ffffff" class="flex-p-charges">
-																<i class="fa fa-inr"></i> <?php echo $orderDetails['amount']['wallet'];?>
+															<?//currency icon needed?>
+																<i class=""></i> <?php echo $orderDetails['amount']['wallet'];?>
 															</td>
 														</tr>
 													</table>
@@ -509,7 +511,8 @@
 													<table cellpadding="0" cellspacing="0" border="0" width="20%" align="right" class="responsive-table">
 														<tr>
 															<td align="center" style="padding: 0 0 0 0; font-family: Arial, sans-serif; color: #333333; font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #999999; font-weight: 600; font-size: 12px; line-height: 22px; text-align: right;" bgcolor="#ffffff" class="flex-p-charges">
-																<i class="fa fa-inr"></i> <?php echo $orderDetails['amount']['delivery_charges'];?>
+															<?//currency icon needed?>
+																<i class=""></i> <?php echo $orderDetails['amount']['delivery_charges'];?>
 															</td>
 														</tr>
 													</table>
@@ -533,7 +536,8 @@
 											<!-- TOTAL -->
 											<tr>
 												<td align="right" style="padding: 15 0 0 0; font-size: 32px; font-family: 'Open Sans', Helvetica, Arial, sans-serif; color: #00b1b1; font-weight: 100;" class="align-total-charge"  width="100%">
-													<i class="fa fa-inr"></i> <b><?php echo $orderDetails['amount']['total_price'];?></b>
+												<?//currency icon needed?>
+													<i class=""></i> <b><?php echo $orderDetails['amount']['total_price'];?></b>
 												</td>
 											</tr>
 											<!-- TOTAL TITLE -->

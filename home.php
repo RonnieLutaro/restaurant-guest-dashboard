@@ -93,8 +93,9 @@ $qry_seat="SELECT COUNT(*) as num FROM tbl_booking";$total_seat = mysqli_fetch_a
         </div>
       	        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12"> <a href="reservation.php" class="card card-banner card-yellow-light">        <div class="card-body"> <i class="icon fa fa-list fa-4x"></i>          <div class="content">            <div class="title">Total Orders</div>            <div class="value"><span class="sign"></span><?php echo $total_orders;?></div>          </div>        </div>        </a>         </div>  
 		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12"> 
-		<a href="" class="card card-banner card-blue-light">       
-			<div class="card-body"> <i class="icon fa fa-inr fa-4x"></i>         
+		<a href="" class="card card-banner card-blue-light">
+		<?//currency icon needed ?>       
+			<div class="card-body"> <i class=""></i>         
 				<div class="content">            
 					<div class="title">Total Earning</div>            
 					<div class="value"><span class="sign"></span><?php echo $total_amount;?></div>         
