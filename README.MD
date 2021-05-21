@@ -6,7 +6,7 @@ A RESTful Web API service part of the full [Restaurant Guest Software System](ht
 This system makes use of the [Laravel](https://laravel.com/docs/7.x) v7.30.1 Framework which is primarily based on the PHP programming language.
 
 ## Setting Up 🛠
-01. `git clone https://github.com/RonnieLutaro/Property-Manager.git`
+01. `git clone https://github.com/RonnieLutaro/restaurant-guest-REST-API.git`
 02. `cd restaurant-guest-REST-API`
 03. `composer install`
 04. `cp .env.example .env`
