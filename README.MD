@@ -1,4 +1,4 @@
-# Smart Restaurant System API Web Service
+# Smart Restaurant Operations Web API
 ## Overview
 A RESTful Web API part of the full [Smart Restaurant System](https://github.com/users/RonnieLutaro/projects/5). The API is consumed by a Real-time Analytics Admin Dashboard and [Mobile application](https://github.com/RonnieLutaro/smart-restaurant-android). The vision here is to develop a backend Web API service that supports a more efficient way for restaurants to manage their business operations and Customer Experience.
 
