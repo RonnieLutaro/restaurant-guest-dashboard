@@ -1,18 +1,12 @@
-# Smart Restaurant Operations Web API
-## Overview
-A RESTful Web API part of the full [Smart Restaurant System](https://github.com/users/RonnieLutaro/projects/5). The API is consumed by a Real-time Analytics Admin Dashboard and [Mobile application](https://github.com/RonnieLutaro/smart-restaurant-android). The vision here is to develop a backend Web API service that supports a more efficient way for restaurants to manage their business operations and Customer Experience.
+# Restaurant Guest Dashboard
+### Overview
+A RESTful Web API service part of the full [Restaurant Guest Software System](https://github.com/RonnieLutaro/smart-restaurant-android). The vision here is to develop a backend Web API service that supports a more efficient way for restaurants to manage their business operations and Customer Experience.
 
-## Technologies used 🚀
-This system makes use of the [Laravel](https://laravel.com/docs/7.x) v7.30.1 Framework which is primarily based on the PHP programming language.
+### Technologies used 🚀
+- ASP.NET 5.0
+- C#
 
-## Setting Up 🛠
-01. `git clone https://github.com/RonnieLutaro/smart-restaurant-web-API.git`
-02. `cd restaurant-guest-REST-API`
-03. `composer install`
-04. `cp .env.example .env`
-05. `php artisan key:generate`
-06. `php artisan migrate`
-07. `php artisan storage:link`
-08. `php artisan serve`
-
+### Setting Up 🛠
+01. `git clone https://github.com/RonnieLutaro/operations-web-API.git`
+02. `cd operations-web-API`
 
