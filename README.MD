@@ -1,6 +1,6 @@
 # Restaurant Guest Dashboard
 ### Overview
-A RESTful Web API service part of the full [Restaurant Guest Software System](https://github.com/RonnieLutaro/smart-restaurant-android). The vision here is to develop a backend Web API service that supports a more efficient way for restaurants to manage their business operations and Customer Experience.
+A RESTful Web API service part of the full [Smart Restaurant System](https://github.com/RonnieLutaro/smart-restaurant-android). The vision here is to develop a backend Web API service that supports a more efficient way for restaurants to manage their business operations and Customer Experience.
 
 ### Technologies used 🚀
 - ASP.NET 5.0
