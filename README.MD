@@ -5,7 +5,7 @@ A RESTful Web API service part of the full [Smart Restaurant System](https://git
 ### Technologies used 🚀
 - ASP.NET 5.0
 - C#
-- Microsoft SQL Server
+- [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
 ### Setting Up 🛠
 01. `git clone https://github.com/RonnieLutaro/operations-web-API.git`
