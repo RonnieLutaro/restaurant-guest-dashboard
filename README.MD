@@ -8,6 +8,6 @@ A RESTful Web API service part of the full [Smart Restaurant System](https://git
 - [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
 ### Setting Up 🛠
-01. `git clone https://github.com/RonnieLutaro/operations-web-API.git`
+01. `git clone https://github.com/RonnieLutaro/operations-web-api`
 02. `cd operations-web-API`
 
