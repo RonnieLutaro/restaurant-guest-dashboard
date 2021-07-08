@@ -9,5 +9,5 @@ A RESTful Web API service part of the full [Smart Restaurant System](https://git
 
 ### Setting Up 🛠
 01. `git clone https://github.com/RonnieLutaro/operations-web-api`
-02. `cd operations-web-API`
+02. `cd operations-web-api`
 
